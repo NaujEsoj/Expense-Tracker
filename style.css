@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+.amount {
+  width: 20%;
+}
+
+@media screen and (max-width: 600px) {
+  fieldset input {
+    width: 100%;
+  }
+  .mainTable {
+    font-size: auto;
+  }
+
+}
+
+body {
+  background-image: linear-gradient(to bottom right, #012690 0%, #71C6C8 100%);
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;  /* Font Family */
+  justify-items: center;
+  margin: auto;
+  max-width: 80%;
+  height: 100%;
+}
+
+.btn {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.date {
+  width: 20%;
+}
+
+.expAmountTd {
+  text-align: center;
+}
+
+.expDateTd {
+  text-align: center;
+}
+
+.expTr {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+fieldset {
+  color: white;
+  border: none;
+  margin-bottom: 10px;
+}
+
+fieldset .btn {
+  margin-left: 20px;
+}
+
+fieldset input {
+  border: none;
+  border-bottom: 1px solid white;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+fieldset label {
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 10px;
+}
+
+h1 {
+  color: white;
+  padding: 80px 0 30px 10px;
+}
+
+.mainTable {
+  border-bottom: solid 1px lightgrey;
+  margin-bottom: 100px;
+}
+
+.mainTable thead {
+  background-color: #f2f2f2;
+}
+
+.mainTable thead th {
+  padding: 10px;
+}
+
+.mainTable tbody td {
+  padding: 10px;
+}
+
+.name {
+  width: 40%;
+}
+
+.optionsTd {
+  display: flex;
+  justify-content: center;
+}
+
+tbody td {
+  border-bottom: solid 1px lightgrey;
+  font-size: 1.2em;
+}
+
+tfoot {
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Expence Tracker</h1>
+  <fieldset>
+    <label for="name">Name: </label>
+    <input type="text" name="name" id="expenseName" required="required" placeholder="Expense Name">
+    <label for="name">Date: </label>
+    <input type="date" name="date" id="expenseDate" required>
+    <label for="number">Amount: </label>
+    <input type="number" name="amount" id="expenseAmount" required placeholder="Expense Amount">
+    <button type="submit" class="btn" id="submitBtn">Add Expense</button>
+  </fieldset>
+  <table class="mainTable">
+    <thead>
+      <tr>
+        <th class="name">Name</th>
+        <th class="date">Date</th>
+        <th class="amount">Amount</th>
+        <th class="optionsBtns">
+          <button class="btn" id="clear">Clear All</button>
+        </th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+    <tfoot>
+      <tr>
+        <td>Total:</td>
+        <td colspan="3" class="sum" id="sum"></td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+<script src="main.js"></script>
+</html>
